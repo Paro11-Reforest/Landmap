@@ -205,6 +205,7 @@
                     <h2 style="color:var(--forest-green); margin-bottom:10px;"> ข้อมูลผู้ถือครอง</h2>
                     <table class="info-table">
                         <tr><td>ชื่อ-นามสกุล</td><td>${getVal(p, 'name_title')}${getVal(p, 'name')} ${getVal(p, 'surname')}</td></tr>
+                        <tr><td>เลขเขตโครงการ</td><td>${getVal(p, 'APAR_NO') || '-'}</td></tr>
                         <tr><td>เลขที่แปลง</td><td>${getVal(p, 'NUM_APAR') || '-'}</td></tr>
                         <tr><td>บ้านเลขที่</td><td>${getVal(p, 'home_no') || '-'}</td></tr>
                         <tr>
